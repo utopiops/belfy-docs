@@ -3,7 +3,7 @@ on:
   push:
     branches:
       - main
-      - fix-workflow
+      - add-workflow
   workflow_dispatch:
     
 permissions:
