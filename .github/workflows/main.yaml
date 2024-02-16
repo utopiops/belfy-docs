@@ -1,7 +1,9 @@
 
 on:
   push:
-    branches: [$default-branch]
+    branches:
+      - main
+      - fix-workflow
   workflow_dispatch:
     
 permissions:
@@ -39,4 +41,4 @@ jobs:
           path: "build"
       - name: Deploy
         id: deployment
-        uses: deploy/deploy-pages@v1
+        uses: actions/deploy-pages@v1
