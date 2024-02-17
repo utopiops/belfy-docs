@@ -2,46 +2,32 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Introduction
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Belfy is a tool for generating CRUD applications from your data definitions. You can also customize the applications in a declarative fashion using YAML files. 
+With Belfy, you can build full-stack or split-stack applications. Built with modularity at its core, Belfy promotes an ecosystem of extensions to support more frameworks and technologies.
+
 
 ## Getting Started
 
-Get started by **creating a new site**.
+To create a CRUD application follow these steps:
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
+1. Place all your data definition and customization files (entities.yaml, navbar.yaml, page_overrides.yaml) in a specific folder
+2. Run the following command in your terminal:
+   
 ```bash
-npm init docusaurus@latest my-website classic
+npx belfy create
 ```
+3. Answer the questions based on your preferences. (You'll also be asked about the path of the folder specified in step 1)
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+## Supporting the project
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+Belfy is distributed under the Apache-2.0 license, and your support can benefit the entire community. You can support the project in any of the following ways:
 
-## Start your site
+- Use Belfy and report bugs or submit feature requests.
+- Write blog posts about Belfy.
+- Share Belfy with your colleagues.
+- Write posts about Belfy on your social media.
+- Contribute to the core repository or to new or existing extensions.
 
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Thank you for your support ❤️
